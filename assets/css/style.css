@@ -1,0 +1,1235 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: #FFFFFF;
+}
+#topContainer
+{
+    position:relative;
+    height:88%;
+}
+
+#navBarContainer {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 21.944%;
+    height: 89vh;
+    left: 0;
+    top: 0;
+
+    background: linear-gradient(173.82deg, #EAF1FF 0%, rgba(234, 241, 255, 0.37) 100%);
+    border-right: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 0 20px 20px 0;
+    transition:transform 0.2s ease-in-out;
+}
+.nav--hidden
+{
+    transform:translateY(100%);
+    box-shadow: none;
+}
+.titreNavBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*padding: 50px 65px;*/
+    gap: 1%;
+
+    position: absolute;
+    width: 100%;
+    height: 11.33698%;
+    left: 0;
+    top: 0;
+}
+.titre {
+    width: 43.512%;
+    height: 34.5139%;
+
+
+    /* Inside auto layout
+    flex: none;
+    order: 0;
+    flex-grow: 0;*/
+}
+.roovy {
+    position: absolute;
+    width: 32.27848%;
+    height: 34.5139%;
+    left: 39.4778%;
+    top: 32.747%;
+
+    font-family: 'Mortend' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 125%;
+    line-height: 116.5139%;
+    /* identical to box height */
+
+
+    color: #3A4F7A;
+}
+.logo {
+    position: absolute;
+    width: 13.0759%;
+    height: 32.76%;
+    left: 28.2436%;
+    top: 36.0341%;
+}
+
+.contenuNavBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 2.8125%;
+
+    position: absolute;
+    width: 75%;
+    height: 50.3119%;
+    left: 6.9620%;
+    top: 14.0628%;
+}
+.groupMenu {
+    width: 100%;
+    height: 46.758985%;
+
+
+    /*Inside auto layout*/
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.groupPlaylist {
+    height: 16.9565%;
+    width: 100%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.groupSettings {
+    height: 34.17%;
+    width: 100%;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    display: flex;
+}
+.groupMenu .menu {
+    position: absolute;
+    width: 20.51282%;
+    height: 7.7075%;
+    left: 0;
+    top: 0;
+
+
+
+}
+.grandText {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 125%;
+    line-height: 100%;
+    /* identical to box height */
+
+
+    color: #586175;
+}
+.groupMenu .menuTools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 2.747%;
+
+    position: absolute;
+    width: 100%;
+    height: 36.48228%;
+    left: 6.2271%;
+    top: 10.2767%;
+
+}
+.menuTools:hover{
+    cursor:pointer ;
+
+}
+
+.settingsTools:hover{
+    cursor:pointer ;
+
+}
+
+.browse:hover .text {
+    color:white;
+}
+.browse:hover .icon {
+    filter: brightness(0) invert(1);
+}
+
+.library:hover .text {
+    color:white;
+}
+.library:hover .icon {
+    filter: brightness(0) invert(1);
+}
+
+.username:hover .text {
+    color:white;
+}
+.username:hover .icon {
+    filter: brightness(0) invert(1);
+}
+
+.search:hover .text {
+    color:white;
+}
+.search:hover .icon {
+    filter: brightness(0) invert(1);
+}
+
+.logout:hover .text {
+    color:white;
+}
+.logout:hover .icon {
+    filter: brightness(0) invert(1);
+}
+
+.browse:hover, .search:hover,.library:hover,.username:hover, .logout:hover {
+    background: #E98EAD;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.createYourPlaylist:hover .text{
+    color: #E98EAD;
+    cursor:pointer ;
+}
+
+.browse, .search, .library, .username, .logout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*padding: 10px 163px 10px 15px;*/
+
+    gap: 15px;
+    padding: 10px 15px;
+    width: 100%;
+    height: 30.98%;
+
+    border-radius: 5px;
+
+    /* Inside auto layout */
+
+    /*flex: none;
+    flex-grow: 0;*/
+}
+.text {
+    width: 22.3443%;
+    height: 54.54545%;
+
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 100%;
+    /* identical to box height */
+
+
+    color: #505050;
+
+
+    /* Inside auto layout
+    flex: none;
+    order: 1;
+    flex-grow: 0;*/
+}
+.icon{
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout
+    flex: none;
+    order: 0;
+    flex-grow: 0;*/
+}
+.settings {
+    position: absolute;
+    width: 43.036%;
+    height: 8.707%;
+    padding: 33PX 0px;
+
+}
+.settingsTools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 1.8315%;
+    position: absolute;
+    width: 100%;
+    height: 23.89332%;
+    padding: 80px 0px;}
+
+#nowPlayingBarContainer {
+    width: 100%;
+    bottom:0;
+    position: fixed;
+    min-width: 620px;
+    height: 11%;
+    background: rgba(69, 69, 69, 0.36);
+    backdrop-filter: blur(25px);
+    /* Note: backdrop-filter has minimal browser support */
+    mix-blend-mode: multiply;
+
+
+}
+
+
+.maskImage{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    min-width: 620px;
+    height: 100px;
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/c/c1/The_Weeknd_-_After_Hours.png);
+    filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+#nowPlayingBar {
+    display: flex;
+    height: 90px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+#nowPlayingLeft,
+#nowPlayingRight{
+    width: 30%;
+    min-width: 100px;
+}
+#nowPlayingRight {
+    position: relative;
+    margin-top: 10px;
+}
+#nowPlayingCenter{
+    width: 40%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#nowPlayingBar .content {
+    width: 100%;
+    height: 57px;
+}
+.playerControls .buttons {
+    margin: 8px auto;
+    display: table;
+}
+.controlButton {
+    background-color: transparent;
+    border: none;
+    vertical-align: middle;
+    width:50px;
+}
+.controlButton img {
+    width: 24px;
+    height: 24px;
+    color: #FFFFFF;
+}
+.controlButton.play img,
+.controlButton.pause img {
+    width: 24px;
+    height: 24px;
+}
+.controlButton:hover {
+    cursor:pointer ;
+}
+.progressTime {
+    min-width: 40px;
+    text-align: center;
+
+    font-family: 'Poppins' ,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 10px;
+    /* identical to box height */
+    color: #F2F2F2;
+}
+.playbackBar{
+    display: flex;
+}
+.progressBar {
+    width: 100%;
+    height: 12px;
+    display: inline-flex;
+    cursor: pointer;
+}
+.progressBarBg{
+    background-color: #404040;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+}
+.progress{
+    background-color: #F2F2F2;
+    height: 4px;
+    width: 50%;
+    border-radius: 2px;
+}
+.playbackBar .progressBar{
+    margin-top: 3px;
+}
+#nowPlayingLeft .albumArtwork {
+    height: 100%;
+    max-width: 57px;
+    margin-right: 15px;
+    float: left;
+    background-size: cover;
+    background: url(https://upload.wikimedia.org/wikipedia/en/c/c1/The_Weeknd_-_After_Hours.png);
+    filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.25));
+    border-radius: 8px;
+}
+.trackInfo {
+    display: table;
+}
+#nowPlayingLeft .trackInfo .trackName {
+    margin: 6px 0;
+    display: block;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #FFFFFF;
+}
+#nowPlayingLeft .trackInfo .artistName  {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: rgba(255, 221, 233, 0.74);
+
+}
+.volumeBar {
+    width: 180px;
+    position: absolute;
+    right: 0;
+}
+.volumeBar .progressBar {
+    width: 125px;
+}
+.menuTools div{
+
+}
+
+#mainContent
+{
+    height:100%;
+    width:100%;
+    display:flex;
+    position:absolute;
+}
+#mainViewContainer
+{   height:100%;
+    width:78.004%;
+    left:23%;
+    display:flex;
+    position:absolute;
+
+}
+.browsingPageContainer
+{
+    width:77%;
+    height:100%;
+    display:flex;
+    position:absolute;
+    overflow: auto;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+.browsingPageContainer::-webkit-scrollbar {
+    width: 0.8em;
+    display:block;
+}
+
+.browsingPageContainer::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+
+}
+
+.browsingPageContainer::-webkit-scrollbar-thumb {
+    background-color: #E0E7F4;
+    height:20px;
+}
+#featuresContainer
+{
+    width:23%;
+    height:100%;
+    right:0;
+    display:flex;
+    position:absolute;
+}
+.subscriptionContainer
+{   width:94%;
+    background:url("../images/Subscription.png");
+    background-size: cover;
+    top:1%;
+    position:absolute;
+    display:flex;
+    height: 25%;
+    left:2%;
+    border:1px solid;
+    border-radius: 20px;
+}
+.subscriptionContent
+{
+    font-family: Poppins;
+    fontstyle: normal;
+    font-size: 32px;
+    Line-height: 100%;
+    color:white;
+    width:70%;
+    display:flex;
+    position:absolute;
+    left:5%;
+    top:10%;
+}
+
+.subscriptionLink  {
+    display: flex;
+    top:110%;
+    position:absolute;
+    left:45%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+.subscriptionLink a
+{
+    color:white;
+}
+
+.browseAlbum
+{
+    margin-top: 25%;
+    position: absolute;
+    width: 50%;
+    height: 1.99%;
+    left: 2%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 39px;
+    color: #586175;
+}
+.LikedAlbums
+{   margin-top:31%;
+    position: absolute;
+    width: 50%;
+    height: 1.53%;
+    left: 6%;
+    font-family: 'Poppins' ;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    color: #586175;
+}
+
+.viewMoreAlbums
+{
+    position: absolute;
+    right: 4.5%;
+    margin-top: 32%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(88, 97, 117, 0.8);
+}
+.gridViewContainer
+{   margin-top: 33%;
+    width:100%;
+    left:3%;
+    position:absolute;
+    cursor:pointer;
+}
+.gridViewItem
+{   position:relative;
+    display:inline-block;
+    width:28%;
+    aspect-ratio: 1/1; /* set the aspect ratio of the container */
+    overflow: hidden;
+    margin-left: 3%;
+    border-radius: 8%;
+    margin-top: 3%;
+}
+
+.gridViewItem img
+{
+    display:block;
+    width: 100%;
+    height:100%;
+    margin-bottom:10%;
+    transition: transform 0.5s ease;
+    border-radius: 5%;
+
+
+}
+.gridViewInfo
+{
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:0;
+    transform:translateY(400%);
+    background-color:black;
+    transition: transform 0.3s ease;
+    width:100%;
+    height:22%;
+    color:black;
+    overflow:hidden;
+    border-radius: 5%;
+
+}
+
+.gridViewInfo .albumName
+{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position:relative;
+    left:10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color:white;
+    font-weight: 800;
+    width: 50%;
+    height:30%;
+    top:4%;
+}
+.gridViewInfo .artistName
+{   width: 50%;
+    left:10%;
+    color:white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    position:relative;
+    margin-top:3%;
+}
+#Glogo
+{
+    position:absolute;
+    top: 2%;
+    left: 3%;
+    width:10%;
+    height: 10%;
+    z-index: 1;
+}
+
+.ImageContent img:last-child:hover
+{
+    transform:scale(1.1);
+
+}
+.ImageContent:hover + .gridViewInfo
+{   opacity:1;
+    background: linear-gradient(0deg,#000000,transparent);
+    transform:translateY(355%);
+    border-radius: 3%;
+
+}
+.playbutton
+{
+    width:10%;
+    position:absolute;
+    right:10%;
+    height: 50%;
+    display:flex;
+    top:25%;
+}
+.lyricsFeature
+{   position:absolute;
+    width: 50%;
+    height:20%;
+    top:4%;
+    margin-left:5%;
+    color:#586175;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+.comingSoon
+{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F5F5F5;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #858585;
+    width:80%;
+    left:7%;
+    top:10%;
+    height: 40%;
+    border-radius:10%;
+    text-align: center;
+}
+.friendsActivity
+{
+    position:absolute;
+    display:flex;
+    width:100%;
+    top:55%;
+    margin-left:5%;
+    height:20%;
+    color:#586175;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #586175
+}
+.friendsList
+{   position: absolute;
+    display: flex;
+    width:80%;
+    height: 50%;
+    left:7%;
+    top:60%;
+    background: rgba(245, 245, 245, 0.63);
+    backdrop-filter: blur(3.5px);
+    border-radius: 10%;
+    background-image: url("../images/FriendsList.png");
+    background-size: cover;
+    background-position: left;
+
+}
+.friendsList .lock
+{
+    display:flex;
+    position:absolute;
+    width:100%;
+    height:20%;
+    top:30%;
+    align-items: center ;
+}
+.lock img
+{
+    position:absolute;
+    width: 25%;
+    left: 38%;
+    height:80%;
+}
+.friendsListInfo
+{
+    top:46%;
+    position:absolute;
+    width:80%;
+    left:10%;
+    height:20%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color:#586175;
+}
+.friendsListInfoSub
+{   position:absolute;
+    display:flex;
+    width:80%;
+    height:20%;
+    left:10%;
+    top:65%;
+    font-family:'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #586175;
+}
+
+
+
+.buttonItems .button {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.playlistsContainer {
+    padding: 10px 0;
+}
+
+.groovyPlaylist{
+    position: absolute;
+    width: 916px;
+    height: 201px;
+    left: 10%;
+    top: 10%;
+}
+.groovyText{
+    position: absolute;
+    width: 14%;
+    height: 30%;
+    left: 0%;
+    top: 0%;
+    font-family: 'Poppins' ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 220%;
+    line-height: 175%;
+    color: #505050;
+}
+.playlistsText{
+    position: absolute;
+    width: 14%;
+    height: 23%;
+    left: 4%;
+    top: 25%;
+    font-family: 'Poppins' ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200%;
+    line-height: 150%;
+    color: #3A4F7A;
+}
+.paraText{
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    left: 0;
+    top: 60%;
+    font-family: 'Poppins' ,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 126%;
+    line-height: 140%;
+    color: #505050;
+}
+.gridViewItems{
+    margin-top: -10%;
+    margin-bottom: 5%;
+}
+.gridViewItem2 img
+{
+    display:block;
+    width: auto;
+    height:100%;
+    margin-bottom:10%;
+    transition: transform 0.5s ease;
+    border-radius: 5%;
+    object-fit: none;
+
+}
+.gridViewItem2
+{   position:relative;
+    display:inline-block;
+    width:28%;
+    height:28%;
+    aspect-ratio: 1/1; /* set the aspect ratio of the container */
+    overflow: hidden;
+    margin-left: -4%;
+    border-radius: 8%;
+    margin-top: 3%;
+}
+.buttonDelete {
+    position: absolute;
+    left: 7.5%;
+    display: flex;
+    width: 12%;
+    height: 8%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #3A4F7A;
+    border-radius: 10px;
+    color: #3A4F7A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 27px;
+    top: 66%;
+}
+.buttonDelete:hover {
+    background-color:#3A4F7A ;
+    color: #FFFFFF;
+}
+
+.searchContainer{
+    padding: 50px 100px;
+    overflow: auto;
+    width: 100%;
+}
+.searchContainer::-webkit-scrollbar {
+    width: 0px;
+}
+.inputWrapper {
+    border: 1px solid rgba(58, 79, 122, 1);
+
+    box-sizing: border-box;
+    width: 50vw;
+    height: 7vh;
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    background: #FFFFFF;
+    border: 1px solid #3A4F7A;
+    border-radius: 15px;
+}
+.searchInput{
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+input:focus, input:active{
+    outline: 0;
+
+}
+
+.searchInput::placeholder{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 36px;
+
+
+    color: rgba(58, 79, 122, 0.51);
+}
+.searchIcon{
+    width: 11%;
+    background: #586175;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchStatus{
+    height: 45%;
+    width: 45%;
+}
+.tracklistContainerVide {
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.defaultSearch img{
+    margin: auto;
+    display: block;
+}
+.defaultSearch p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    width: 80%;
+    color: #586175;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.tracklistRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 5px;
+
+}
+.tracklistRow:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+    background: rgba(0, 0, 0, 0.03);
+
+}
+
+.top {
+    display: flex;
+    margin-top: 80px;
+}
+.top{
+    display: flex;
+    margin-top: 80px;
+}
+.AlbumtracklistContainer{
+    margin-top: 35PX;
+}
+.more{
+    width: 15%;
+}
+
+.artistRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 5px;
+
+}
+.artistRow:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+    background: rgba(0, 0, 0, 0.03);
+}
+.artistButton{
+    opacity: 0;
+    display: flex;
+
+    padding-right: 10PX;
+}
+.artistRow:hover .artistButton{
+    opacity: 1;
+}
+.artistButton:hover{
+    cursor: pointer;
+    transform: translateX(10px);
+    transition: transform 0.2s ease-out;
+}
+.artistButton div{
+    width: 99%;
+    height: 24px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #505050;
+}
+
+h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #586175;
+
+}
+.columnn1{
+    width: 10%;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #505050;
+}
+.columnn2{
+    width: 90%;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: LEFT;
+    color: #505050;
+}
+.columnn3{
+    width: 45%;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: LEFT;
+
+    color: #505050;
+}
+.columnn4{
+    width: 34%;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #505050;
+}
+
+.tracklistRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+    margin-bottom: 5px;
+}
+.buttonItems .button {
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.playlistsContainer {
+    padding: 10px 0;
+}
+
+.groovyPlaylist{
+    position: absolute;
+    width: 916px;
+    height: 201px;
+    left: 10%;
+    top: 10%;
+}
+.groovyText{
+    position: absolute;
+    width: 14%;
+    height: 30%;
+    left: 0%;
+    top: 0%;
+    font-family: 'Poppins' ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 220%;
+    line-height: 175%;
+    color: #505050;
+}
+.playlistsText{
+    position: absolute;
+    width: 14%;
+    height: 23%;
+    left: 4%;
+    top: 25%;
+    font-family: 'Poppins' ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200%;
+    line-height: 150%;
+    color: #3A4F7A;
+}
+.paraText{
+    position: absolute;
+    width: 100%;
+    height: 45%;
+    left: 0;
+    top: 60%;
+    font-family: 'Poppins' ,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 126%;
+    line-height: 140%;
+    color: #505050;
+}
+
+.noResults{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 80%;
+    color: #586175;
+
+}
+.artistName {
+    width: 65%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #505050;
+    margin-left: 10px;
+}
+.top{
+    display: flex;
+    margin-top: 80px;
+}
+.AlbumtracklistContainer{
+    margin-top: 35PX;
+}
+.more{
+    width: 15%;
+}
+hr{
+    margin: auto;
+}
+.playlistName{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(184, 203, 242, 0.5);    padding: 10px;
+    width: 55%;
+    height: 11%;
+    text-align: center;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins' ,sans-serif;
+    font-style: normal;
+    font-size: 126%;
+    font-weight: 700;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}

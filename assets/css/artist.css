@@ -1,0 +1,125 @@
+.mostPopular {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5952a0;
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+
+.Albums {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5952a0;
+    position: relative;
+    left: 5%;
+    top:25%;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #262252;
+    margin: 10px 0;
+    position: relative;
+    top: 45%;
+    width: 90%;
+    height: 2px;
+    opacity: 0.4;
+}
+
+.col2 .contenu {
+    margin-top: -5%;
+}
+
+.gridViewItem1 {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    height: 35%;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin-left: 3%;
+    border-radius: 5%;
+    margin-top: 18.5%;
+    left:2%;
+}
+
+.gridViewItem1 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+    transition: transform 0.5s ease;
+    border-radius: 5%;
+}
+
+.gridViewInfo1 {
+    position: relative;
+    left: 0;
+    top: -143%;
+    opacity: 0;
+    transform: translateY(400%);
+    background-color: black;
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 30%;
+    color: black;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.gridViewInfo1 .albumName {
+    position: relative;
+    left: 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    color: white;
+    font-weight: 800;
+    width: 80%;
+    height: 30%;
+    top: 4%;
+}
+.gridViewInfo1 .artistName{
+    width: 50%;
+    left:10%;
+    color:white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    position:relative;
+    margin-top:3%;
+}
+
+.Space1 {
+    margin-top:50px;
+}
+
+.Space2 {
+    margin-top:10px;
+}
+
+.AlbumList
+{
+    margin-top:50px;
+}
+
+.ImageContent:hover + .gridViewInfo1{
+    opacity:1;
+    background: linear-gradient(0deg,#000000,transparent);
+    transform:translateY(355%);
+    border-radius: 3%;
+
+}

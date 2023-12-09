@@ -1,0 +1,149 @@
+.settingsHeader
+{
+    width:100%;
+    text-align: center;
+    position:absolute;
+    height:15%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #505050;
+}
+.mailcontainer
+{
+    width:10%;
+    height:1%;
+    margin-top:6%;
+    left:19.5%;
+    top:5%;
+    position:absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #505050;
+
+}
+.email
+{   padding-left:1%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 17.5%;
+    top:22%;
+    background: #F1F1F1;
+    border: 2px solid #E9E9E9;
+    border-radius: 25px;
+    width: 65%;
+    height:50px;
+}
+.userPasswordContainer h2
+{
+    width:30%;
+    height:1%;
+    left:19.5%;
+    position:absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #505050;
+}
+.passwordcontainer1
+{
+
+    margin-top:22%;
+}
+.passwordcontainer2
+{
+
+    margin-top:31%;
+}
+.passwordcontainer3
+{
+    margin-top:40%;
+}
+
+
+.saveButton
+{
+    position:absolute;
+    left:46.5%;
+    display: flex;
+    width: 7%;
+    height:40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #3A4F7A;
+    border-radius: 10px;
+    color: #3A4F7A;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 27px;
+}
+.userMailContainer .saveButton
+{
+    top:32%;
+}
+.userPasswordContainer .saveButton
+{
+    top:89%;
+}
+
+
+
+.userPasswordContainer input
+{   padding-left:1%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 17.5%;
+    background: #F1F1F1;
+    border: 2px solid #E9E9E9;
+    border-radius: 25px;
+    width: 65%;
+    height:50px;
+}
+.oldPassword
+{
+    top:46%;
+}
+.newPassword1
+{
+    top:62.5%;
+}
+.newPassword2
+{
+    top:79%;
+}
+.saveButton:hover
+{
+    background-color:#3A4F7A;
+    color:white;
+    cursor:pointer;
+}
+.message1
+{
+    position:absolute;
+    width: 50%;
+    height: 5%;
+    left:20%;
+    top:30%;
+    color:red;
+}
+.message2
+{
+    position:absolute;
+    width: 50%;
+    height: 5%;
+    left:20%;
+    top:87%;
+    color:red;
+}
