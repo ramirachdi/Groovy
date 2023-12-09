@@ -1,10 +1,10 @@
 
 Music Streaming Web App
 
-Overview
+Overview:
 This is a music streaming web application inspired by Netflix, built using HTML, CSS, JavaScript, PHP, and AJAX. The app allows users to browse and listen to a vast collection of music tracks.
 
-Features
+Features:
 User Authentication: Users can create accounts, log in, and securely authenticate using PHP sessions.
 Dynamic Content Loading: AJAX is used to dynamically load content without refreshing the entire page, providing a smoother user experience.
 Music Catalog: A vast catalog of music tracks organized by genres, artists, and albums.
