@@ -1,5 +1,6 @@
 
 Music Streaming Web App
+
 Overview
 This is a music streaming web application inspired by Netflix, built using HTML, CSS, JavaScript, PHP, and AJAX. The app allows users to browse and listen to a vast collection of music tracks.
 
